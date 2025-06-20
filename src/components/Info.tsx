@@ -34,11 +34,12 @@ export default function Info() {
 
         {/* Imagem à direita */}
         <div className="md:w-1/2 flex justify-center shadow-lg">
-          <img
-            src={image2}
-            alt="Photo of Ana and Thiago"
-            className="w-full rounded-lg object-cover"
-          />
+          
+        <img
+          src={image2}
+          alt="Foto de Ana e Gabriel"
+          className="w-full max-w-md rounded-lg object-cover"
+        />
         </div>
 
       </div>
