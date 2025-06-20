@@ -34,7 +34,7 @@ export default function Info() {
         {/* Imagem à direita */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="/image2.png"
+            src={`${import.meta.env.BASE_URL}image2.jpg`}
             alt="Foto de Ana e Gabriel"
             className="w-full max-w-md rounded-lg object-cover"
           />

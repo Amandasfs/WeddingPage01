@@ -3,7 +3,7 @@ export default function Hero() {
     <section
       className="relative bg-cover bg-center h-screen flex items-center justify-center"
       style={{
-        backgroundImage: "url('/image1.jpg')",  // Coloque sua foto nessa pasta pública
+        backgroundImage: "url(`${import.meta.env.BASE_URL}image1.jpg`)",  // Coloque sua foto nessa pasta pública
       }}
     >
       {/* Overlay para escurecer levemente o fundo */}
