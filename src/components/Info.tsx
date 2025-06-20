@@ -1,5 +1,5 @@
 import { Heart } from 'lucide-react';
-import image2 from '../assets/images/image2.png';
+import image2 from '../assets/images/image2.jpg';
 
 export default function Info() {
   return (
